@@ -26,3 +26,5 @@ C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows
 C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Chessgame.RankingBoard.resources
 C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
 C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Chessgame.csproj.ResolveComReference.cache
+C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Interop.WMPLib.dll
+C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Chessgame.Setting.resources

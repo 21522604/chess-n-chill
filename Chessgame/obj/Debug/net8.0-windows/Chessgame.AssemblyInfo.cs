@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chessgame")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c3eb0d4ae062f54093151ac5480e5399358bb03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93d75abc45ff20e13d4b7d8b11570b035fd7b9b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chessgame")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chessgame")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

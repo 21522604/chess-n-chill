@@ -2,7 +2,7 @@
 
 namespace Chessgame
 {
-    partial class Home
+    partial class Setting
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,17 +30,17 @@ namespace Chessgame
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Setting));
             HomeButton = new Button();
             Bar = new PictureBox();
             RankingButton = new Button();
-            PlayButton = new Button();
-            SettingButton = new Button();
-            AccountButton = new Button();
             ExitButton = new Button();
             ChessBoard = new PictureBox();
+            SoundSetting = new TrackBar();
+            SoundLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)Bar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ChessBoard).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)SoundSetting).BeginInit();
             SuspendLayout();
             // 
             // HomeButton
@@ -83,54 +83,6 @@ namespace Chessgame
             RankingButton.UseVisualStyleBackColor = false;
             RankingButton.Click += RankingButton_Click;
             // 
-            // PlayButton
-            // 
-            PlayButton.FlatAppearance.BorderSize = 0;
-            PlayButton.FlatAppearance.MouseOverBackColor = Color.DimGray;
-            PlayButton.FlatStyle = FlatStyle.Flat;
-            PlayButton.Font = new Font("Segoe UI", 40F);
-            PlayButton.ForeColor = SystemColors.Window;
-            PlayButton.Location = new Point(139, 331);
-            PlayButton.Name = "PlayButton";
-            PlayButton.Size = new Size(405, 111);
-            PlayButton.TabIndex = 5;
-            PlayButton.Text = "Chơi";
-            PlayButton.TextAlign = ContentAlignment.MiddleLeft;
-            PlayButton.UseVisualStyleBackColor = true;
-            PlayButton.Click += PlayButton_Click;
-            // 
-            // SettingButton
-            // 
-            SettingButton.FlatAppearance.BorderSize = 0;
-            SettingButton.FlatAppearance.MouseOverBackColor = Color.DimGray;
-            SettingButton.FlatStyle = FlatStyle.Flat;
-            SettingButton.Font = new Font("Segoe UI", 40F);
-            SettingButton.ForeColor = SystemColors.Window;
-            SettingButton.Location = new Point(139, 436);
-            SettingButton.Name = "SettingButton";
-            SettingButton.Size = new Size(405, 111);
-            SettingButton.TabIndex = 6;
-            SettingButton.Text = "Cài đặt";
-            SettingButton.TextAlign = ContentAlignment.MiddleLeft;
-            SettingButton.UseVisualStyleBackColor = true;
-            SettingButton.Click += SettingButton_Click;
-            // 
-            // AccountButton
-            // 
-            AccountButton.FlatAppearance.BorderSize = 0;
-            AccountButton.FlatAppearance.MouseOverBackColor = Color.DimGray;
-            AccountButton.FlatStyle = FlatStyle.Flat;
-            AccountButton.Font = new Font("Segoe UI", 40F);
-            AccountButton.ForeColor = SystemColors.Window;
-            AccountButton.Location = new Point(139, 541);
-            AccountButton.Name = "AccountButton";
-            AccountButton.Size = new Size(405, 111);
-            AccountButton.TabIndex = 7;
-            AccountButton.Text = "Tài khoản";
-            AccountButton.TextAlign = ContentAlignment.MiddleLeft;
-            AccountButton.UseVisualStyleBackColor = true;
-            AccountButton.Click += AccountButton_Click;
-            // 
             // ExitButton
             // 
             ExitButton.FlatAppearance.BorderSize = 0;
@@ -138,7 +90,7 @@ namespace Chessgame
             ExitButton.FlatStyle = FlatStyle.Flat;
             ExitButton.Font = new Font("Segoe UI", 40F);
             ExitButton.ForeColor = SystemColors.Window;
-            ExitButton.Location = new Point(139, 646);
+            ExitButton.Location = new Point(139, 550);
             ExitButton.Name = "ExitButton";
             ExitButton.Size = new Size(405, 111);
             ExitButton.TabIndex = 8;
@@ -157,28 +109,49 @@ namespace Chessgame
             ChessBoard.TabIndex = 9;
             ChessBoard.TabStop = false;
             // 
-            // Home
+            // SoundSetting
+            // 
+            SoundSetting.Location = new Point(189, 396);
+            SoundSetting.Name = "SoundSetting";
+            SoundSetting.Size = new Size(316, 56);
+            SoundSetting.TabIndex = 1;
+            SoundSetting.Value = 10;
+            SoundSetting.ValueChanged += SoundChange;
+            // 
+            // SoundLabel
+            // 
+            SoundLabel.AutoSize = true;
+            SoundLabel.Font = new Font("Segoe UI", 32F);
+            SoundLabel.ForeColor = SystemColors.Window;
+            SoundLabel.Location = new Point(139, 283);
+            SoundLabel.Name = "SoundLabel";
+            SoundLabel.Size = new Size(277, 72);
+            SoundLabel.TabIndex = 11;
+            SoundLabel.Text = "Âm thanh:";
+            // 
+            // Setting
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(64, 64, 64);
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(1331, 844);
+            Controls.Add(SoundLabel);
+            Controls.Add(SoundSetting);
             Controls.Add(ChessBoard);
             Controls.Add(ExitButton);
-            Controls.Add(AccountButton);
-            Controls.Add(SettingButton);
-            Controls.Add(PlayButton);
             Controls.Add(RankingButton);
             Controls.Add(HomeButton);
             Controls.Add(Bar);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Home";
+            Name = "Setting";
             Text = "PlayMode";
             WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)Bar).EndInit();
             ((System.ComponentModel.ISupportInitialize)ChessBoard).EndInit();
+            ((System.ComponentModel.ISupportInitialize)SoundSetting).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -186,10 +159,9 @@ namespace Chessgame
         private Button HomeButton;
         private PictureBox Bar;
         private Button RankingButton;
-        private Button PlayButton;
-        private Button SettingButton;
-        private Button AccountButton;
         private Button ExitButton;
         private PictureBox ChessBoard;
+        private TrackBar SoundSetting;
+        private Label SoundLabel;
     }
 }

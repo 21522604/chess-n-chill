@@ -1,13 +1,12 @@
 using System.Windows.Forms;
-
+using WMPLib;
 namespace Chessgame
 {
-    public partial class Home : Form
+    public partial class Setting : Form
     {
-        public Home()
+        public Setting()
         {
             InitializeComponent();
-
         }
 
         private void PlayButton_Click(object sender, EventArgs e)
@@ -37,11 +36,9 @@ namespace Chessgame
             this.Hide();
         }
 
-        private void SettingButton_Click(object sender, EventArgs e)
+        private void SoundChange(object sender, EventArgs e)
         {
-            Setting setting = new Setting();
-            setting.Show();
-            this.Hide();
+            AudioManager.SetVolume(SoundSetting.Value*10);
         }
     }
 }
