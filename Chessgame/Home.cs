@@ -14,14 +14,16 @@ namespace Chessgame
         {
             PlayMode playMode = new PlayMode();
             playMode.Show();
-            this.Hide();
+            this.Dispose();
+            this.Close();
         }
 
         private void AccountButton_Click(object sender, EventArgs e)
         {
             Account account = new Account();
             account.Show();
-            this.Hide();
+            this.Dispose();
+            this.Close();
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
@@ -34,14 +36,20 @@ namespace Chessgame
         {
             RankingBoard board = new RankingBoard();
             board.Show();
-            this.Hide();
+            this.Dispose();
+            this.Close();
         }
 
         private void SettingButton_Click(object sender, EventArgs e)
         {
             Setting setting = new Setting();
             setting.Show();
-            this.Hide();
+            this.Dispose();
+            this.Close();
+        }
+
+        private void HomeButton_Click(object sender, EventArgs e)
+        {
         }
     }
 }

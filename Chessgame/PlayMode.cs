@@ -13,6 +13,7 @@ namespace Chessgame
         {
             Home home = new Home();
             home.Show();
+            this.Dispose();
             this.Close();
         }
 
@@ -20,12 +21,29 @@ namespace Chessgame
         {
             PlayModeSub playModeSub = new PlayModeSub();
             playModeSub.Show();
-            this.Hide();
+            this.Dispose();
+            this.Close();
         }
 
         private void AIPlayButton_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void HomeButton_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Dispose();
+            this.Close();
+        }
+
+        private void RankingButton_Click(object sender, EventArgs e)
+        {
+            RankingBoard board = new RankingBoard();
+            board.Show();
+            this.Dispose();
+            this.Close();
         }
     }
 }

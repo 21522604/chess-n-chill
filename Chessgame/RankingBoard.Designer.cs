@@ -61,6 +61,7 @@ namespace Chessgame
             HomeButton.Size = new Size(256, 68);
             HomeButton.TabIndex = 2;
             HomeButton.UseVisualStyleBackColor = false;
+            HomeButton.Click += HomeButton_Click;
             // 
             // Bar
             // 
@@ -87,6 +88,7 @@ namespace Chessgame
             RankingButton.TabIndex = 4;
             RankingButton.UseMnemonic = false;
             RankingButton.UseVisualStyleBackColor = false;
+            RankingButton.Click += RankingButton_Click;
             // 
             // BackButton
             // 
@@ -99,7 +101,7 @@ namespace Chessgame
             BackButton.Name = "BackButton";
             BackButton.Size = new Size(650, 111);
             BackButton.TabIndex = 8;
-            BackButton.Text = "Quay lại";
+            BackButton.Text = "Quay lại trang chủ";
             BackButton.TextAlign = ContentAlignment.MiddleLeft;
             BackButton.UseVisualStyleBackColor = true;
             BackButton.Click += BackButton_Click;
@@ -143,7 +145,7 @@ namespace Chessgame
             RankingBoardListView.UseCompatibleStateImageBehavior = false;
             RankingBoardListView.View = View.Details;
             // 
-            // Name
+            // NameColumn
             // 
             NameColumn.Text = "Tên";
             NameColumn.Width = 300;

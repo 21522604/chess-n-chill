@@ -13,6 +13,7 @@ namespace Chessgame
         {
             Home home = new Home();
             home.Show();
+            this.Dispose();
             this.Close();
         }
 
@@ -20,14 +21,32 @@ namespace Chessgame
         {
             Friend friend = new Friend();
             friend.Show();
-            this.Hide();
+            this.Dispose();
+            this.Close();
         }
 
         private void ChangeInfoAccountButton_Click(object sender, EventArgs e)
         {
             ChangeInfoAccount changeInfoAccount = new ChangeInfoAccount();
             changeInfoAccount.Show();
-            this.Hide();
+            this.Dispose();
+            this.Close();
+        }
+
+        private void HomeButton_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Dispose();
+            this.Close();
+        }
+
+        private void RankingButton_Click(object sender, EventArgs e)
+        {
+            RankingBoard board = new RankingBoard();
+            board.Show();
+            this.Dispose();
+            this.Close();
         }
     }
 }

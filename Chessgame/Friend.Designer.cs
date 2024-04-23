@@ -56,6 +56,7 @@ namespace Chessgame
             HomeButton.Size = new Size(256, 68);
             HomeButton.TabIndex = 2;
             HomeButton.UseVisualStyleBackColor = false;
+            HomeButton.Click += HomeButton_Click;
             // 
             // Bar
             // 
@@ -82,6 +83,7 @@ namespace Chessgame
             RankingButton.TabIndex = 4;
             RankingButton.UseMnemonic = false;
             RankingButton.UseVisualStyleBackColor = false;
+            RankingButton.Click += RankingButton_Click;
             // 
             // BackButton
             // 
@@ -142,6 +144,7 @@ namespace Chessgame
             DeleteFriendButton.Text = "Xóa";
             DeleteFriendButton.TextAlign = ContentAlignment.MiddleLeft;
             DeleteFriendButton.UseVisualStyleBackColor = false;
+            DeleteFriendButton.Click += DeleteFriendButton_Click;
             // 
             // FindFriendButton
             // 

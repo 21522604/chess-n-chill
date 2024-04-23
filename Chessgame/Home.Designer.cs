@@ -55,6 +55,7 @@ namespace Chessgame
             HomeButton.Size = new Size(256, 68);
             HomeButton.TabIndex = 2;
             HomeButton.UseVisualStyleBackColor = false;
+            HomeButton.Click += HomeButton_Click;
             // 
             // Bar
             // 

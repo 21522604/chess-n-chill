@@ -58,6 +58,7 @@ namespace Chessgame
             HomeButton.Size = new Size(256, 68);
             HomeButton.TabIndex = 2;
             HomeButton.UseVisualStyleBackColor = false;
+            HomeButton.Click += HomeButton_Click;
             // 
             // Bar
             // 
@@ -84,6 +85,7 @@ namespace Chessgame
             RankingButton.TabIndex = 4;
             RankingButton.UseMnemonic = false;
             RankingButton.UseVisualStyleBackColor = false;
+            RankingButton.Click += RankingButton_Click;
             // 
             // BackGroundInfo
             // 
@@ -140,6 +142,7 @@ namespace Chessgame
             LoginButton.TabIndex = 15;
             LoginButton.Text = "Đăng nhập";
             LoginButton.UseVisualStyleBackColor = false;
+            LoginButton.Click += LoginButton_Click;
             // 
             // EmailLoginTextbox
             // 
@@ -186,6 +189,7 @@ namespace Chessgame
             SignUpLabel.Size = new Size(430, 54);
             SignUpLabel.TabIndex = 19;
             SignUpLabel.Text = "Bạn chưa có tài khoản?";
+            SignUpLabel.Click += SignUpLabel_Click;
             // 
             // Login
             // 

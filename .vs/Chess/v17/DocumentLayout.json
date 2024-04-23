@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\setting.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\setting.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,121 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Home.cs",
-              "RelativeDocumentMoniker": "Chessgame\\Home.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Home.cs [Design]",
-              "RelativeToolTip": "Chessgame\\Home.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:48:28.461Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Home.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Home.Designer.cs",
-              "RelativeDocumentMoniker": "Chessgame\\Home.Designer.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Home.Designer.cs",
-              "RelativeToolTip": "Chessgame\\Home.Designer.cs",
-              "ViewState": "AQIAAMEAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:47:01.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.cs",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Home.cs",
-              "RelativeDocumentMoniker": "Chessgame\\Home.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Home.cs",
-              "RelativeToolTip": "Chessgame\\Home.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwAYAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:46:53.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Program.cs",
-              "RelativeDocumentMoniker": "Chessgame\\Program.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Program.cs",
-              "RelativeToolTip": "Chessgame\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:33:26.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Setting.cs",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Setting.cs",
-              "RelativeDocumentMoniker": "Chessgame\\Setting.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Setting.cs",
-              "RelativeToolTip": "Chessgame\\Setting.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowCgAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:31:58.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Setting.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Setting.cs",
-              "RelativeDocumentMoniker": "Chessgame\\Setting.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Setting.cs [Design]",
-              "RelativeToolTip": "Chessgame\\Setting.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:32:21.863Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Chessgame\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\AudioManager.cs",
-              "RelativeToolTip": "Chessgame\\AudioManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T14:06:42.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Account.cs",
-              "RelativeDocumentMoniker": "Chessgame\\Account.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Account.cs",
-              "RelativeToolTip": "Chessgame\\Account.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:52:24.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Setting.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Setting.Designer.cs",
-              "RelativeDocumentMoniker": "Chessgame\\Setting.Designer.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\Setting.Designer.cs",
-              "RelativeToolTip": "Chessgame\\Setting.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:32:00.729Z",
-              "EditorCaption": ""
             }
           ]
         }

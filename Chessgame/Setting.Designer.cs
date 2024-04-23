@@ -34,7 +34,7 @@ namespace Chessgame
             HomeButton = new Button();
             Bar = new PictureBox();
             RankingButton = new Button();
-            ExitButton = new Button();
+            BackButton = new Button();
             ChessBoard = new PictureBox();
             SoundSetting = new TrackBar();
             SoundLabel = new Label();
@@ -55,6 +55,7 @@ namespace Chessgame
             HomeButton.Size = new Size(256, 68);
             HomeButton.TabIndex = 2;
             HomeButton.UseVisualStyleBackColor = false;
+            HomeButton.Click += HomeButton_Click;
             // 
             // Bar
             // 
@@ -83,21 +84,21 @@ namespace Chessgame
             RankingButton.UseVisualStyleBackColor = false;
             RankingButton.Click += RankingButton_Click;
             // 
-            // ExitButton
+            // BackButton
             // 
-            ExitButton.FlatAppearance.BorderSize = 0;
-            ExitButton.FlatAppearance.MouseOverBackColor = Color.DimGray;
-            ExitButton.FlatStyle = FlatStyle.Flat;
-            ExitButton.Font = new Font("Segoe UI", 40F);
-            ExitButton.ForeColor = SystemColors.Window;
-            ExitButton.Location = new Point(139, 550);
-            ExitButton.Name = "ExitButton";
-            ExitButton.Size = new Size(405, 111);
-            ExitButton.TabIndex = 8;
-            ExitButton.Text = "Thoát";
-            ExitButton.TextAlign = ContentAlignment.MiddleLeft;
-            ExitButton.UseVisualStyleBackColor = true;
-            ExitButton.Click += ExitButton_Click;
+            BackButton.FlatAppearance.BorderSize = 0;
+            BackButton.FlatAppearance.MouseOverBackColor = Color.DimGray;
+            BackButton.FlatStyle = FlatStyle.Flat;
+            BackButton.Font = new Font("Segoe UI", 40F);
+            BackButton.ForeColor = SystemColors.Window;
+            BackButton.Location = new Point(139, 550);
+            BackButton.Name = "BackButton";
+            BackButton.Size = new Size(405, 111);
+            BackButton.TabIndex = 8;
+            BackButton.Text = "Quay lại";
+            BackButton.TextAlign = ContentAlignment.MiddleLeft;
+            BackButton.UseVisualStyleBackColor = true;
+            BackButton.Click += ExitButton_Click;
             // 
             // ChessBoard
             // 
@@ -138,7 +139,7 @@ namespace Chessgame
             Controls.Add(SoundLabel);
             Controls.Add(SoundSetting);
             Controls.Add(ChessBoard);
-            Controls.Add(ExitButton);
+            Controls.Add(BackButton);
             Controls.Add(RankingButton);
             Controls.Add(HomeButton);
             Controls.Add(Bar);
@@ -159,7 +160,7 @@ namespace Chessgame
         private Button HomeButton;
         private PictureBox Bar;
         private Button RankingButton;
-        private Button ExitButton;
+        private Button BackButton;
         private PictureBox ChessBoard;
         private TrackBar SoundSetting;
         private Label SoundLabel;
