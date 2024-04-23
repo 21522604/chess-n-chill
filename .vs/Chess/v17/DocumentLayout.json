@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\findfriend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\findfriend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\playmodesub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\playmodesub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\findroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\findroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\findfriend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\findfriend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\findfriend.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\findfriend.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\findroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\findroom.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\findroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\findroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|c:\\users\\namth\\onedrive\\desktop\\ltmcbda\\chess\\chessgame\\playmodesub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3D400D37-57E0-4B99-913D-A2A51C1EFBF9}|Chessgame\\Chessgame.csproj|solutionrelative:chessgame\\playmodesub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +46,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FindFriend.cs",
               "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindFriend.cs",
               "RelativeDocumentMoniker": "Chessgame\\FindFriend.cs",
               "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindFriend.cs",
               "RelativeToolTip": "Chessgame\\FindFriend.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAiwCUAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T21:14:53.592Z",
+              "WhenOpened": "2024-04-23T23:34:39.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FindRoom.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindRoom.cs",
+              "RelativeDocumentMoniker": "Chessgame\\FindRoom.cs",
+              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindRoom.cs [Design]",
+              "RelativeToolTip": "Chessgame\\FindRoom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:27:24.714Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FindRoom.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindRoom.Designer.cs",
+              "RelativeDocumentMoniker": "Chessgame\\FindRoom.Designer.cs",
+              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindRoom.Designer.cs",
+              "RelativeToolTip": "Chessgame\\FindRoom.Designer.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAgwMEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:26:37.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FindRoom.cs",
+              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindRoom.cs",
+              "RelativeDocumentMoniker": "Chessgame\\FindRoom.cs",
+              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindRoom.cs",
+              "RelativeToolTip": "Chessgame\\FindRoom.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:26:36.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FindFriend.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindFriend.cs",
-              "RelativeDocumentMoniker": "Chessgame\\FindFriend.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindFriend.cs [Design]",
-              "RelativeToolTip": "Chessgame\\FindFriend.cs [Design]",
+              "Title": "PlayModeSub.cs",
+              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\PlayModeSub.cs",
+              "RelativeDocumentMoniker": "Chessgame\\PlayModeSub.cs",
+              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\PlayModeSub.cs",
+              "RelativeToolTip": "Chessgame\\PlayModeSub.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA1wCsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T20:56:31.824Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-23T23:31:14.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FindFriend.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindFriend.Designer.cs",
-              "RelativeDocumentMoniker": "Chessgame\\FindFriend.Designer.cs",
-              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\FindFriend.Designer.cs",
-              "RelativeToolTip": "Chessgame\\FindFriend.Designer.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAAAYwMQAAAAyAAAA",
+              "DocumentIndex": 5,
+              "Title": "PlayModeSub.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\PlayModeSub.cs",
+              "RelativeDocumentMoniker": "Chessgame\\PlayModeSub.cs",
+              "ToolTip": "C:\\Users\\namth\\OneDrive\\Desktop\\ltmcbda\\Chess\\Chessgame\\PlayModeSub.cs [Design]",
+              "RelativeToolTip": "Chessgame\\PlayModeSub.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T20:56:05.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T23:31:11.143Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

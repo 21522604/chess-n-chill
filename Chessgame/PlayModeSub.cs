@@ -32,5 +32,17 @@ namespace Chessgame
             this.Dispose();
             this.Close();
         }
+
+        private void RoomListButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FindRoomButton_Click(object sender, EventArgs e)
+        {
+            FindRoom findRoom = new FindRoom();
+            findRoom.Show();
+            this.Close();
+        }
     }
 }

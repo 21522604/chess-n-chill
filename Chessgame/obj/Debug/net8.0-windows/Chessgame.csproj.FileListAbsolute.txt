@@ -29,3 +29,5 @@ C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows
 C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Interop.WMPLib.dll
 C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Chessgame.Setting.resources
 C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Chessgame.FindFriend.resources
+C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Chessgame.DeleteFriend.resources
+C:\Users\namth\OneDrive\Desktop\ltmcbda\Chess\Chessgame\obj\Debug\net8.0-windows\Chessgame.FindRoom.resources

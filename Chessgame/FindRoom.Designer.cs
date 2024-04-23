@@ -2,7 +2,7 @@
 
 namespace Chessgame
 {
-    partial class PlayModeSub
+    partial class FindRoom
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,7 +30,7 @@ namespace Chessgame
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlayModeSub));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FindRoom));
             HomeButton = new Button();
             Bar = new PictureBox();
             RankingButton = new Button();
@@ -39,8 +39,17 @@ namespace Chessgame
             BackButton = new Button();
             ChessBoard = new PictureBox();
             RoomListButton = new Button();
+            NotFoundLabel = new Label();
+            ExitFindButton = new Button();
+            FindARoomButton = new Button();
+            IDRoomInput = new TextBox();
+            IDRoomInputLabel = new Label();
+            BackGroundIn = new PictureBox();
+            BackGround = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Bar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ChessBoard).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)BackGroundIn).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)BackGround).BeginInit();
             SuspendLayout();
             // 
             // HomeButton
@@ -113,7 +122,6 @@ namespace Chessgame
             FindRoomButton.Text = "Tìm phòng";
             FindRoomButton.TextAlign = ContentAlignment.MiddleLeft;
             FindRoomButton.UseVisualStyleBackColor = true;
-            FindRoomButton.Click += FindRoomButton_Click;
             // 
             // BackButton
             // 
@@ -155,14 +163,104 @@ namespace Chessgame
             RoomListButton.Text = "Danh sách phòng";
             RoomListButton.TextAlign = ContentAlignment.MiddleLeft;
             RoomListButton.UseVisualStyleBackColor = true;
-            RoomListButton.Click += RoomListButton_Click;
             // 
-            // PlayModeSub
+            // NotFoundLabel
+            // 
+            NotFoundLabel.AutoSize = true;
+            NotFoundLabel.BackColor = Color.FromArgb(43, 43, 43);
+            NotFoundLabel.Font = new Font("Segoe UI", 18F);
+            NotFoundLabel.ForeColor = SystemColors.Window;
+            NotFoundLabel.Location = new Point(727, 520);
+            NotFoundLabel.Name = "NotFoundLabel";
+            NotFoundLabel.Size = new Size(455, 41);
+            NotFoundLabel.TabIndex = 31;
+            NotFoundLabel.Text = "Không tìm thấy phòng có ID trên";
+            NotFoundLabel.Visible = false;
+            // 
+            // ExitFindButton
+            // 
+            ExitFindButton.BackColor = Color.FromArgb(61, 61, 61);
+            ExitFindButton.FlatAppearance.BorderSize = 0;
+            ExitFindButton.FlatAppearance.MouseOverBackColor = Color.DimGray;
+            ExitFindButton.FlatStyle = FlatStyle.Flat;
+            ExitFindButton.Font = new Font("Segoe UI", 24F);
+            ExitFindButton.ForeColor = SystemColors.Window;
+            ExitFindButton.Location = new Point(1036, 580);
+            ExitFindButton.Name = "ExitFindButton";
+            ExitFindButton.Size = new Size(176, 78);
+            ExitFindButton.TabIndex = 30;
+            ExitFindButton.Text = "Thoát";
+            ExitFindButton.UseVisualStyleBackColor = false;
+            ExitFindButton.Click += ExitFindButton_Click;
+            // 
+            // FindARoomButton
+            // 
+            FindARoomButton.BackColor = Color.FromArgb(61, 61, 61);
+            FindARoomButton.FlatAppearance.BorderSize = 0;
+            FindARoomButton.FlatAppearance.MouseOverBackColor = Color.DimGray;
+            FindARoomButton.FlatStyle = FlatStyle.Flat;
+            FindARoomButton.Font = new Font("Segoe UI", 24F);
+            FindARoomButton.ForeColor = SystemColors.Window;
+            FindARoomButton.Location = new Point(667, 580);
+            FindARoomButton.Name = "FindARoomButton";
+            FindARoomButton.Size = new Size(176, 78);
+            FindARoomButton.TabIndex = 29;
+            FindARoomButton.Text = "Tìm";
+            FindARoomButton.UseVisualStyleBackColor = false;
+            FindARoomButton.Click += FindARoomButton_Click;
+            // 
+            // IDRoomInput
+            // 
+            IDRoomInput.Font = new Font("Segoe UI", 32F);
+            IDRoomInput.Location = new Point(611, 439);
+            IDRoomInput.Name = "IDRoomInput";
+            IDRoomInput.Size = new Size(649, 78);
+            IDRoomInput.TabIndex = 28;
+            // 
+            // IDRoomInputLabel
+            // 
+            IDRoomInputLabel.AutoSize = true;
+            IDRoomInputLabel.BackColor = Color.FromArgb(43, 43, 43);
+            IDRoomInputLabel.Font = new Font("Segoe UI", 32F);
+            IDRoomInputLabel.ForeColor = SystemColors.Window;
+            IDRoomInputLabel.Location = new Point(745, 340);
+            IDRoomInputLabel.Name = "IDRoomInputLabel";
+            IDRoomInputLabel.Size = new Size(400, 72);
+            IDRoomInputLabel.TabIndex = 27;
+            IDRoomInputLabel.Text = "Nhập ID phòng";
+            // 
+            // BackGroundIn
+            // 
+            BackGroundIn.BackColor = Color.FromArgb(43, 43, 43);
+            BackGroundIn.Location = new Point(488, 331);
+            BackGroundIn.Name = "BackGroundIn";
+            BackGroundIn.Size = new Size(893, 339);
+            BackGroundIn.TabIndex = 26;
+            BackGroundIn.TabStop = false;
+            // 
+            // BackGround
+            // 
+            BackGround.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            BackGround.BackColor = Color.FromArgb(230, 0, 0, 0);
+            BackGround.Location = new Point(0, 0);
+            BackGround.Name = "BackGround";
+            BackGround.Size = new Size(1331, 844);
+            BackGround.TabIndex = 25;
+            BackGround.TabStop = false;
+            // 
+            // FindRoom
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(64, 64, 64);
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(1331, 844);
+            Controls.Add(NotFoundLabel);
+            Controls.Add(ExitFindButton);
+            Controls.Add(FindARoomButton);
+            Controls.Add(IDRoomInput);
+            Controls.Add(IDRoomInputLabel);
+            Controls.Add(BackGroundIn);
+            Controls.Add(BackGround);
             Controls.Add(ChessBoard);
             Controls.Add(BackButton);
             Controls.Add(FindRoomButton);
@@ -173,12 +271,15 @@ namespace Chessgame
             Controls.Add(RoomListButton);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "PlayModeSub";
+            Name = "FindRoom";
             Text = "PlayModeSub";
             WindowState = FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)Bar).EndInit();
             ((System.ComponentModel.ISupportInitialize)ChessBoard).EndInit();
+            ((System.ComponentModel.ISupportInitialize)BackGroundIn).EndInit();
+            ((System.ComponentModel.ISupportInitialize)BackGround).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -191,5 +292,12 @@ namespace Chessgame
         private Button BackButton;
         private PictureBox ChessBoard;
         private Button RoomListButton;
+        private Label NotFoundLabel;
+        private Button ExitFindButton;
+        private Button FindARoomButton;
+        private TextBox IDRoomInput;
+        private Label IDRoomInputLabel;
+        private PictureBox BackGroundIn;
+        private PictureBox BackGround;
     }
 }
