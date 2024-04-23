@@ -30,6 +30,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="FindFriend.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Setting.cs">
       <SubType>Form</SubType>
     </Compile>
