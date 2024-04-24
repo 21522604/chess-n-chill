@@ -41,7 +41,10 @@ namespace Chessgame
 
         private void DeleteFriendButton_Click(object sender, EventArgs e)
         {
-
+            DeleteFriend deleteFriend = new DeleteFriend();
+            deleteFriend.Show();
+            this.Dispose();
+            this.Close();
         }
     }
 }

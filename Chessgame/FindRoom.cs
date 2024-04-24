@@ -33,6 +33,7 @@ namespace Chessgame
         {
             PlayModeSub playModeSub = new PlayModeSub();
             playModeSub.Show();
+            this.Dispose();
             this.Close();
         }
     }

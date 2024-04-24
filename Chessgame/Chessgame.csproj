@@ -39,6 +39,9 @@
     <Compile Update="FindRoom.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Setting.cs">
       <SubType>Form</SubType>
     </Compile>

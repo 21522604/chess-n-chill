@@ -98,6 +98,7 @@ namespace Chessgame
             PlayRankButton.Text = "Đánh xếp hạng";
             PlayRankButton.TextAlign = ContentAlignment.MiddleLeft;
             PlayRankButton.UseVisualStyleBackColor = true;
+            PlayRankButton.Click += PlayRankButton_Click;
             // 
             // FindRoomButton
             // 

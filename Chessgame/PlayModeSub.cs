@@ -42,6 +42,15 @@ namespace Chessgame
         {
             FindRoom findRoom = new FindRoom();
             findRoom.Show();
+            this.Dispose();
+            this.Close();
+        }
+
+        private void PlayRankButton_Click(object sender, EventArgs e)
+        {
+            Game game = new Game();
+            game.Show();
+            this.Dispose();
             this.Close();
         }
     }

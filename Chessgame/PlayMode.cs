@@ -27,7 +27,10 @@ namespace Chessgame
 
         private void AIPlayButton_Click(object sender, EventArgs e)
         {
-
+            Game game = new Game();
+            game.Show();
+            this.Dispose();
+            this.Close();
         }
 
         private void HomeButton_Click(object sender, EventArgs e)
